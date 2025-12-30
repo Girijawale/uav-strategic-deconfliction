@@ -1,8 +1,8 @@
-# 🚁 4D Drone Deconfliction System
+# 🚁 UAV Deconfliction System
 
 > **Strategic Airspace Management Through Spatiotemporal Analysis**
 
-A production-ready system that verifies drone mission safety in shared airspace using 4D conflict detection (3D space + time).
+A  system that verifies drone mission safety in shared airspace using 4D conflict detection (3D space + time).
 
 ---
 
