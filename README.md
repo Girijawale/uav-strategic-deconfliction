@@ -73,24 +73,24 @@ Running Scenario 1: CONFLICT DETECTION...
   - 3D Plot: output/conflict_detection_3d.png
   - Animation: output/conflict_detection_animation.gif
 
-📂 Project Structure
-drone-deconfliction-system/
+## 📂 Project Structure
+uav-strategic-deconfliction/
 │
-├── 📄 main.py                    # Entry point and scenario execution
-├── 🧠 deconfliction_system.py    # Core 4D conflict detection engine
-├── 📦 models.py                  # Data models (Waypoint, Mission, Conflict)
-├── 🧪 scenarios.py               # Predefined test scenarios
-├── 🎨 visualizer.py              # 3D plotting and 4D animation
-├── 📋 requirements.txt           # Python dependencies
-├── 📖 README.md                  # This file
+├── 📄 main.py                     # Entry point: runs all scenarios and generates outputs
+├── 🧠 deconfliction_system.py     # Core spatiotemporal conflict detection logic
+├── 🎨 visualizer.py               # 3D static plots and animated GIF visualizations
+├── 📦 models.py                   # Data classes: Waypoint, Mission, Conflict
+├── 🧪 scenarios.py                # Three test scenarios: conflict, clear, near-miss
+├── 📋 requirements.txt            # Dependencies (numpy, matplotlib)
+├── 📖 README.md                   # Project documentation (you're reading it!)
 │
-└── 📁 output/                    # Generated visualizations
-    ├── conflict_detection_3d.png
-    ├── conflict_detection_animation.gif
-    ├── clear_mission_3d.png
-    ├── clear_mission_animation.gif
-    ├── near_miss_3d.png
-    └── near_miss_animation.gif
+└── 📁 output/                     # Auto-generated on run
+├── conflict_detection_3d.png
+├── conflict_detection_animation.gif
+├── clear_mission_3d.png
+├── clear_mission_animation.gif
+├── near_miss_3d.png
+└── near_miss_animation.gif
 
 # Animated 4D simulation
 visualizer.create_animation(
