@@ -354,7 +354,8 @@ mkdir output
 
 ## 🎥 Demo Video
 
-> **[Video Demonstration Link]** (3-5 minute walkthrough with voiceover)
+> **[https://www.loom.com/share/f28147fa36fa4d21a1f155907eacc09a]** > **Note:** There is a brief microphone issue at the beginning of the Loom video, so the audio is low for the first few seconds. Audio clarity improves shortly after.
+
 
 The demo showcases:
 - System architecture overview
